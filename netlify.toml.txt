@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[plugins]
+  # This ensures Netlify's build image is optimized for a simple HTML site
